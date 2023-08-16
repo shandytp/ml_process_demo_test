@@ -44,4 +44,4 @@ jobs:
         run: docker push shandytp/pacmann_mlprocess_api_test
 
       - name: Build MkDocs Documentation
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force --config-file docs/mkdocs.yml
