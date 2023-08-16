@@ -42,3 +42,6 @@ jobs:
 
       - name: Push Docker image to Docker Hub
         run: docker push shandytp/pacmann_mlprocess_api_test
+
+      - name: Build MkDocs Documentation
+        run: mkdocs gh-deploy --force
