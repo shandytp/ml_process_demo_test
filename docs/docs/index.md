@@ -4,6 +4,7 @@
 - Problem Definition
 - Solution
 - Architecs
+- Machine Learning solutions
 - dll
 
 ## Function
